@@ -22,3 +22,17 @@ select2
 datatables-plugins
 icheck
 summernote
+
+
+proyecto_ventas/app# ls
+angular.json  node_modules  package.json  package-lock.json  README.md  src  tsconfig.app.json  tsconfig.json  tsconfig.spec.json
+
+/proyecto_ventas/app/src# ls
+app  assets  favicon.ico  index.html  main.ts  styles.css
+
+
+
+
+
+
+
