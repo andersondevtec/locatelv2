@@ -1,0 +1,75 @@
+<div class="page-wrapper">
+    <!-- ==============================================================--> 
+    <!-- Container fluid  -->
+    <!-- ============================================================== -->
+    <div class="container-fluid animated fadeIn">
+    <!-- ============================================================== -->
+    <!-- Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+        <div class="row page-titles">
+            <div class="col-md-5 align-self-center">
+                <h3 class="text-themecolor">Registrar cliente</h3>
+            </div>
+            <div class="">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+
+                    <div class="card-body">
+                            <div class="form-body">
+                                <h3 class="card-title">Solicitud de datos del cliente</h3>
+                                <hr>
+                                <div class="row p-t-20">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Nombre completo</label>
+                                            <input type="text" class="form-control" name="Nombre" [(ngModel)]="clientes.Nombre" placeholder="Nombre completo">
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Cédula</label>
+                                            <input type="text" class="form-control" name="Cedula"  [(ngModel)]="clientes.Cedula"placeholder="56165165">
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                </div>
+                                <!--/row-->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Teléfono</label>
+                                            <input type="text"  class="form-control"name="Telefono"   [(ngModel)]="clientes.Telefono" placeholder="(999) 999-9999">
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Dirección</label>
+                                            <input type="text" class="form-control" name="Direccion"  [(ngModel)]="clientes.Direccion" placeholder="Av. tierra 12..">
+                                        </div>
+                                    </div>
+                                    <!--/span-->
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="control-label">Email</label>
+                                            <input type="text" class="form-control" name="Email"  [(ngModel)]="clientes.Email" placeholder="hola@homa.com">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/row-->                                        
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-success" (click)="Cliente()"><i class="fa fa-check"></i> Guardar</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Row -->
+    </div>
+</div>   
